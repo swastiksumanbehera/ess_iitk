@@ -1,5 +1,7 @@
 .car-item{
 }
 
-.car-image{
+.event-image{
+    width: 80%
+    object-fit: contain;
 }
