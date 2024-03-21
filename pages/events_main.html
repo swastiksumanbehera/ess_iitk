@@ -9,17 +9,17 @@
     <link href="https://db.onlinewebfonts.com/c/fc609eb62c0de5abdda2d091abaed228?family=Plantin+Infant+MT+Std+Bold" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body style= "background-image: linear-gradient(to bottom, #409fa5 , #2d888d, #2e3853, #162a31, #2e3853, #2d888d, #409fa5);">
+<body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 </body>
 </html>
 
 <!--header-->
-<div class="row border justify-content-center" style="background-image: url(../assets/universe-1566159_1920.jpg);">
+<div class="row border justify-content-center" style="background-image: url(../assets/pexels-quang-nguyen-vinh-2649403.jpg); background-position: center; background-size: cover;">
     <div class="col-2 py-1 d-none d-md-block">
         <div class="container">
-            <img src="../assets/ESS_logo.png" alt="eagesc logo" style="height: 100px; width:auto;">
+            <img src="../assets/ESS_logo.png" alt="eagesc logo" style="padding-top: 13px; height: 140px; width:auto;">
         </div>
     </div>
     <div class="col justify-content-center py-2">
@@ -33,45 +33,42 @@
                 INDIAN INSTITUTE OF TECHNOLOGY KANPUR
             </h4>
         </div>
+        <div class="row justify-content-center">
+            <nav class="navbar navbar-light sticky-top navbar-expand-md">
+                <a href="../index.html" class="navbar-brand mx-3 h1 d-md-none">
+                    <i class="fa-solid fa-house-chimney" style="color: white;"></i>
+                </a>
+                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="mx-3 navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: white;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav"> <!--navbarNav is a variable to be used in the data-target-->
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active px-5">
+                            <a href="../index.html" onmouseover="this.style.color='greenyellow';" onmouseout="this.style.color='white';" class="nav-link navbar-active navbar-links" style="color: white;">
+                                <b>Home</b>
+                            </a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a href="../pages/team.html" onmouseover="this.style.color='greenyellow';" onmouseout="this.style.color='white';" class="nav-link navbar-links" style="color: white;">
+                                <b>Team</b>
+                            </a>
+                        </li>
+                        <li class="nav-item px-5">
+                            <a href="../pages/events_main.html" class="nav-link navbar-links" style="color: greenyellow;">
+                                <b>Events</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
     <div class="col-2 py-1 d-none d-md-block">
         <div class="container">
-            <img src="../assets/IITK_logo.png" alt="eagesc logo" style="height: 100px; width:auto;">
+            <img src="../assets/IITK_logo.png" alt="eagesc logo" style="padding-top: 13px; height: 140px; width:auto;">
         </div>
     </div>
 </div>
-
-<!--navbar-->
-<!--https://youtu.be/qNifU_aQRio-->
-<!--Check for how to customize/create the navigation bar-->
-<!--Watch the end of the video to add a Search button to the top of the page-->
-<nav class="navbar sticky-top navbar-expand-md"> <!--sticky-top sticks the navbar to the very top of the page-->
-    <a href="index.html" class="navbar-brand h1 d-md-none">
-        <img src="../assets/ESS_logo.png" alt="ess_logo" style="height: 35px; width: auto;">
-    </a>
-    <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa-solid fa-bars" style="color: white;"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav"> <!--navbarNav is a variable to be used in the data-target-->
-        <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-5">
-                <a href="../index.html" class="nav-link active navbar-links">
-                    Home
-                </a>
-            </li>
-            <li class="nav-item active px-5">
-                <a href="../pages/team.html" class="nav-link active navbar-links">
-                    Team
-                </a>
-            </li>
-            <li class="nav-item active px-5">
-                <a href="../pages/events_main.html" class="nav-link active navbar-links" style="color: #3533cb">
-                    Events
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
 <!--main content-->
 <!--Posters potrait of 210x280 dimension-->
@@ -85,7 +82,7 @@
         </div>
         <div class="row py-2 mx-2" style="border-style: solid; border-color: black; border-width: 4px; background-image: linear-gradient(to right, #004aad, #cb6be6);">
             <div class="col-5 col-md-4 col-lg-3 mx-1 justify-content-center d-block">
-                <a href="../subpages/event.html"><img class="img-fluid event-image" style="border: 3px solid black;" src="../assets/posters/Freshers Night.jpeg" alt="template"></a>
+                <a href="../subpages/freshers.html"><img class="img-fluid event-image" style="border: 3px solid black;" src="../assets/posters/Freshers Night.jpeg" alt="template"></a>
             </div>
             <div class="col-6 col-md-7 col-lg-8 mx-1 justify-content-center d-block">
                 <div class="row mx-1">

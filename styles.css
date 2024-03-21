@@ -13,24 +13,21 @@
  }
 
  .navbar{
-    background-color: #080401;
-    opacity: 1;
  }
 
  .navbar-links{
-    color: #f3dcb6;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
  }
 
- .navbar-links:hover{
+ .nav-item:hover{
     color:blue;
  }
 
  .main-box{
     border-style: solid;
     border-color: #080401;
-    background-color: #f8f9fa;
     border-width: 3px;
  }
 
@@ -85,11 +82,24 @@
    transition-timing-function: linear;
  }
 
+ .bg {
+   /* The image used */
+   background-image: url(assets/pexels-ethan-sees-2534617.jpg);
+ 
+   /* Full height */
+   height: 100%; 
+ 
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
  .team-box{
-   background-image: linear-gradient(to bottom right, #028ea7, #7dd857);
-   border: black;
-   border-style: solid;
-   border-width: 1px;
+   
+}
+
+.team-image{
    
 }
 
